@@ -45,7 +45,7 @@ Expand-Archive aivyx.zip
 
 ## What is Aivyx?
 
-Aivyx is a **privacy-first AI agent platform** that runs locally on your machine. Your data never leaves your device.
+Aivyx is a **privacy-first AI agent platform** that runs locally on your machine. When you select a cloud LLM provider, your prompts are sent to that provider. For local inference, use Ollama running on your own device. See the [security model](docs/security.md#third-party-providers) for provider privacy details.
 
 - **Desktop App** — Beautiful Tauri + SvelteKit desktop interface
 - **TUI** — Full-featured terminal interface (Ratatui)
